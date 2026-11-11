@@ -1,0 +1,21 @@
+================================================================================
+PLANT SCADA HISTORIAN - EVENT & ALARM LOG
+LINE: Extruder EX-204 (Polypropylene Compounding Unit 2)
+LOGGING WINDOW: 14:00:00 - 14:30:00
+NOTE: Alarm values are the 1-minute historian sample at which the limit was first exceeded.
+================================================================================
+
+14:00:00 [INFO]   SYS-INIT: Extruder EX-204 running steady. Recipe: PP-Homo + 20% CaCO3 masterbatch.
+14:05:00 [INFO]   SYS-DIAG: Routine automated telemetry sweep: All channels NOMINAL.
+14:08:00 [INFO]   FEED-SYS: Masterbatch hopper refilled. New CaCO3 masterbatch lot MB-2409B (first lot from alternate supplier) now feeding.
+14:12:00 [INFO]   FEED-SYS: Gravimetric Feeder F-201 active, total throughput 450 kg/h.
+14:17:00 [NOTICE] ALM-204-P0: Melt pressure rate-of-rise advisory (3-min avg +4.7 bar/min | Advisory: 2.5 bar/min)
+14:19:00 [WARN]   ALM-204-P1: Melt Head Pressure HIGH WARNING (Value: 191.3 bar | Limit: 190.0 bar)
+14:22:00 [WARN]   ALM-204-TQ1: Main Drive Motor Torque HIGH WARNING (Value: 76.3% | Limit: 75.0%)
+14:24:00 [WARN]   ALM-204-T1: Die Melt Temperature HIGH WARNING (Value: 220.3°C | Limit: 220.0°C)
+14:25:00 [ALARM]  ALM-204-P2: Melt Head Pressure CRITICAL HIGH ALARM (Value: 211.4 bar | Limit: 210.0 bar)
+14:26:00 [ALARM]  ALM-204-TQ2: Main Drive Motor Torque CRITICAL HIGH ALARM (Value: 82.0% | Limit: 80.0%)
+14:29:00 [ALARM]  ALM-204-T2: Die Melt Temperature CRITICAL HIGH ALARM (Value: 225.8°C | Limit: 225.0°C)
+14:30:00 [ALERT]  SCADA: 6 active alarms unacknowledged. Awaiting operator diagnostic verification.
+================================================================================
+END OF LOG STREAM
